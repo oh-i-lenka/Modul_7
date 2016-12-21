@@ -27,6 +27,5 @@ public class Main {
         dataBase.update(roomDAO2);
         dataBase.findById(2122);
         dataBase.getAll();
-
     }
 }

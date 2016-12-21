@@ -46,12 +46,11 @@ public class User implements Comparable<User>{
 
     @Override
     public String toString() {
-        return "Task_1_2_3.User{" +
+        return "User{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", city='" + city + '\'' +
-                ", balance=" + balance +
                 '}';
     }
 

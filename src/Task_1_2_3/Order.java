@@ -32,7 +32,7 @@ public class Order implements Comparable<Order> {
 
     @Override
     public String toString() {
-        return "Task_1_2_3.Order{" +
+        return "Order{" +
                 "id=" + id + " item " + itemName +
                 " shop " + getShopIdentificator() + " price " + price + getCurrency() + " " + getUser().getCity().toString() + "}";
     }
